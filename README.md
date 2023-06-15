@@ -32,3 +32,25 @@ Acceder a un valor o entrada específico de un objeto DataFrame usando loc. Tamb
 Sumar los valores de la columna intentos con sum. Suma_intentos = df["intentos"].sum() print (Suma_intentos)
 
 Eliminar una fila de un DataFrame con la función drop. Nombre_de_la_nueva_df = df.drop('nombredelafila'). Podemos borrar dos filas creando una lista, poniendo sus nombres dentro de corchetes, entre comillas y separados por coma. Ejemplo new_df = df.drop([fila1, fila2]) Si son columnas lo que queremos eliminar, tenemos que escribir df.drop(columns=['nombrecolumna1', 'nombrecolumna2'])
+
+Carpeta Curso Python miércoles: contiene tres archivos.
+
+El miércoles comenzamos finalizando la corrección de los ejercicios del día anterior.
+
+Luego trabajamos con Prophet para predecir el valor futuro de los bitcoin.
+
+Luego estuvimos trabajando con bucles. Nos explicó Luís las ventajas de usar for en lugar de while. También usamos break y continue.
+
+Hicimos ejercicios: Dada una cadena de texto, indique el número de vocales que contiene: texto = 'holaestoesunapruebaenpython'. contador = 0. for letra in texto:
+  if letra == "a" or letra  == "e" or letra == "i" or letra == 'o' or letra == 'u':. contador += 1. print (contador)
+  
+Luego generamos secuencias de datos: La función range() devuelve un flujo de números en el rango especificado, sin necesidad de crear y almacenar previamente una larga estructura de datos. Esto permite generar rangos enormes sin consumir toda la memoria del sistema. El uso de range() es similar a los slices: range(start, stop, step). Podemos omitir start y el rango empezaría en 0. El único valor requerido es stop y el último valor generado será el justo anterior a este. El valor por defecto de step es 1, pero se puede ir "hacia detrás" con -1. range() devuelve un objeto iterable, así que necesitamos obtener los valores paso a paso con una sentencia for ... in (o convertir el objeto a una secuencia como una lista). for x in range(0, 3):. print(x)
+
+Luego practicamos los bucles haciendo ejercicios:
+
+Escribe un bucle for que imprima todos los elementos entre -5 y 5 usando la función de rango. for x in range(-5,6):. print(x)
+
+Imprime los elementos de la siguiente lista: Genres=[ 'rock', 'R&B', 'Soundtrack', 'R&B', 'soul', 'pop'] Asegúrate de seguir las convenciones de Python. Generos=['rock', 'R&B', 'Soundtrack', 'R&B', 'soul', 'pop']
+for genero in Generos:. print (genero)
+
+
