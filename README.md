@@ -1,5 +1,5 @@
 ## Curso-Python
-##Carpeta Curso Python lunes: contiene tres archivos.
+## Carpeta Curso Python lunes: contiene tres archivos.
 
 - El archivo Ana 01 contiene los primeros ejercicios que hicimos creando variables, imprimiendo el típico 'Hola, mundo', 
 añadiendo comentarios, entendiendo errores, los tipos de objetos en Python (string, integer y float), preguntar el tipo de datos (type),
@@ -11,7 +11,7 @@ y empezamos a crear condiciones (if, elif, else)... quedan aún algunos puntos s
 - El archivo Ana 03 Condicionales, los operadores de comparación (==, !=, <, <=, >, >=) que devuelven valores booleanos (True, False)
 y se pueden combinar con operadores lógicos (and, or, not) y seguimos con unos ejercicios de condicionales que no terminamos. Hoy más.
 
-##Carpeta Curso Python martes: contiene un archivo.
+## Carpeta Curso Python martes: contiene un archivo.
 
 - El archivo Ana - 10 - Pandas contiene los ejercicios que hicimos usando la Librería Pandas.
 
@@ -33,7 +33,7 @@ Sumar los valores de la columna intentos con sum. Suma_intentos = df["intentos"]
 
 Eliminar una fila de un DataFrame con la función drop. Nombre_de_la_nueva_df = df.drop('nombredelafila'). Podemos borrar dos filas creando una lista, poniendo sus nombres dentro de corchetes, entre comillas y separados por coma. Ejemplo new_df = df.drop([fila1, fila2]) Si son columnas lo que queremos eliminar, tenemos que escribir df.drop(columns=['nombrecolumna1', 'nombrecolumna2'])
 
-##Carpeta Curso Python miércoles: contiene tres archivos.
+## Carpeta Curso Python miércoles: contiene tres archivos.
 
 El miércoles comenzamos finalizando la corrección de los ejercicios del día anterior.
 
