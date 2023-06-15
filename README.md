@@ -53,4 +53,39 @@ Escribe un bucle for que imprima todos los elementos entre -5 y 5 usando la func
 Imprime los elementos de la siguiente lista: Genres=[ 'rock', 'R&B', 'Soundtrack', 'R&B', 'soul', 'pop'] Asegúrate de seguir las convenciones de Python. Generos=['rock', 'R&B', 'Soundtrack', 'R&B', 'soul', 'pop']
 for genero in Generos:. print (genero)
 
+Escribe un blucle for que imprima la siguiente lista: squares=['red', 'yellow', 'green', 'purple', 'blue'] squares=['red', 'yellow', 'green', 'purple', 'blue']. for color in squares:. print (color)
 
+Escribe un bucle while para mostrar los valores del Rating de una lista de reproducción de un álbum almacenada en la lista PlayListRatings. Si la puntuación es inferior a 6, sal del bucle. La lista PlayListRatings está dada por: PlayListRatings = [10, 9.5, 10, 8, 7.5, 5, 10, 10] (Lo hicimos con for pq Luís nos recomienda no complicarnos...
+PlayListRatings = [10, 9.5, 10, 8, 7.5, 5, 10, 10]
+for valor in PlayListRatings:
+  if valor < 6:
+    break
+  print (valor)
+  
+Escribe un bucle while (for) para copiar los string 'orange' de la lista squares a la lista new_squares. Para y sal del bucle si el valor de la lista no es 'orange':
+squares = ['orange', 'orange', 'purple', 'blue ', 'orange']
+new_squares = []
+for color in squares:
+  if color == 'orange':
+    new_squares.append(color)
+  if color != 'orange':
+    break
+print(new_squares)
+
+Imprima los 100 primeros números de la secuencia de Fibonacci:  0,1,1,2,3,5,8,13,21,34,55,89,…
+a = 0
+b = 1
+#Bucle:
+# En esta secuencia cada número es suma de los dos anteriores. Es decir c=a+b
+# pero no podemos crear una secuencia de sumas infinita...
+# Entonces podemos traducirlo como que a=b y b=c, al que llamaremos siguiente
+# Como es un bucle, va cogiendo uno por uno cada elemento de la lista...
+# y el bucle se repite tantas veces como el rango que le hemos dado.
+# El guión bajo se usa por poner algo pq no va a ser una variable que vayamos a usar.
+# En lugar de ese guión podíamos poner ListaFibonacci.
+
+for ListaFibonacci in range(100):
+  print(a)
+  siguiente = a + b
+  a = b
+  b = siguiente
