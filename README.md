@@ -83,3 +83,16 @@ for ListaFibonacci in range(100):
 
 - El archivo Ana SpaceX - 4 - EDA with Data Visualization son ejercicios realizados con pandas, numpy, matplotlib.pyplot y seaborn.
 Con los datos importados sobre las misiones espaciales de Space X hemos aprendido a hacer gráficas e interpretarlas.
+
+## Carpeta Curso Python jueves: contiene dos archivos
+
+- El archivo Ana 05 Funciones nos explica para qué necesitamos crear funciones: someramente, para poder usar 'trozos' de código en más de una ocasión.
+Aprendimos a definir funciones con def() y a utilizarlas 'invocándolas'. Aprendimos qué son argumentos y parámetros.
+El resultado de una función se escribe en la línea de return.
+También podemos especificar valores por defecto para algún parámetro de la función en el momento en que la definimos.
+Y podemos o incluso debemos explicar el uso de la función que hemos definido en una cadena de texto entre comillas bajo la línea def
+(si queremos poner más texto lo separamos con tres comillas ''') Con la función help podemos imprimir esta información para saber cómo usar y qué hace una función que no es nuestra.
+Luego hemos hecho ejercicios.
+
+- El archivo Ana 09 Series tiene información y ejercicios sobre Series de Python: pasar Listas a Series (comprobar el tipo con Type()),
+hacer cálculos aritméticos con Series, usar operadores relacionales, etc. Hemos comprobado cómo con las Series es más fácil operar, ya que aplica los cálculos a todos los elementos que contiene (la Serie es como una columna de un Data Frame), mientras que para hacer lo mismo con una Lista tendríamos que usar bucles y sería más complicado.
